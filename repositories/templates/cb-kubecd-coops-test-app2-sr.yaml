@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: coops-test-app2
+  name: cb-kubecd-coops-test-app2
+spec:
+  description: Imported application for cb-kubecd/coops-test-app2
+  httpCloneURL: https://github.com/cb-kubecd/coops-test-app2.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: coops-test-app2
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/coops-test-app2.git
