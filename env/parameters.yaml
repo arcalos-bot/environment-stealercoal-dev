@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:stealercoal/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:stealercoal/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:stealercoal/prow:hmacToken
+segmentWriteKey: vault:stealercoal:segmentWriteKey
